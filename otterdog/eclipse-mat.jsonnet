@@ -24,6 +24,13 @@ orgs.newOrg('eclipse-mat') {
       allow_update_branch: false,
       default_branch: "master",
       delete_branch_on_merge: false,
+      description: "The Eclipse Memory Analyzer is a fast and feature-rich Java heap dump analyzer that helps you find memory leaks and reduce memory consumption.",
+      homepage: "https://eclipse.dev/mat/",
+      topics+: [
+        "dtfj",
+        "heapdump",
+        "hprof"
+      ],
       web_commit_signoff_required: false,
     },
     orgs.newRepo('mat-website') {
