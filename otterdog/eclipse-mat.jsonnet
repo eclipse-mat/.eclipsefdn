@@ -43,5 +43,15 @@ orgs.newOrg('eclipse-mat') {
         enabled: false,
       },
     },
+    orgs.newRepo('website') {
+      allow_merge_commit: true,
+      allow_update_branch: false,
+      default_branch: "main",
+      delete_branch_on_merge: false,
+      web_commit_signoff_required: false,
+      workflows+: {
+        enabled: false,
+      },
+    },
   ],
 }
