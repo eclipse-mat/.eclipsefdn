@@ -55,8 +55,8 @@ orgs.newOrg('eclipse-mat') {
       },
     },
     orgs.newRepo('website-public') {
-      description = "This repository hosts the content of the Eclipse Memory Analyzer website. The content is build with hugo from https://github.com/eclipse-mat/website",
-      homepage    = "",
+      description: "This repository hosts the content of the Eclipse Memory Analyzer website. The content is build with hugo from https://github.com/eclipse-mat/website",
+      homepage: "",
       allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "main",
