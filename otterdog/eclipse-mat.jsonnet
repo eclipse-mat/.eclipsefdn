@@ -34,6 +34,7 @@ orgs.newOrg('eclipse-mat') {
       web_commit_signoff_required: false,
     },
     orgs.newRepo('mat-website') {
+      archived: true
       allow_merge_commit: true,
       allow_update_branch: false,
       default_branch: "master",
