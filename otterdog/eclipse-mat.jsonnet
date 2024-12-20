@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-mat') {
+orgs.newOrg('tools.mat', 'eclipse-mat') {
   settings+: {
     description: "",
     name: "MAT project",
